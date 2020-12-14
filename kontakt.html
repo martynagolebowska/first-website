@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt | Góry - wycieczki, noclegi, wakacje, trekking</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    
+    <header>
+        <div class='container'>
+            <div class='row'>
+                
+               <div class="doraplus-logo" >
+                    <h1>GÓRY</h1>
+                </div> 
+                
+                <nav class="menu">
+                    <a href="index.html">Start</a>
+                    <a href="index.html#firma">O firmie</a>
+                    <a href="index.html#oferta">Oferta</a>
+					<a href="index.html#certyfikaty">Certyfikaty</a>
+                    <a href="">Kontakt</a>
+                    <a href="index.html#klienci">Klienci</a>   
+                </nav>
+                
+                <div class='menuIcon'>
+                    <div class='iconEle'></div>
+                    <div class='iconEle'></div>
+                    <div class='iconEle'></div>
+                </div>
+                
+                <div class='ytIcon'>
+					<a href="https://www.youtube.com/" target="_blank">
+						<img class='ytImg' src='images/youtube_logo.svg'>		
+					</a>
+                </div> 
+             
+            </div>
+        </div>
+        
+    </header>
+	
+	<!--TYTUŁ STRONY
+	<section class='offerTitleSec'>
+		<div class='offerTitleRow col-12'>
+			<div class='offerTitle'>
+				<h1>kontakt</h1>
+			</div>
+        </div>
+	</section>
+	-->
+	<section class='contactSec1'>
+		<div class='container'>			
+			<div class='contactBoxLeft'>
+				<div class='contactBox-1'>
+					<div class='contactTitle'>
+						<h1>Rezerwacje</h1>
+						<span class='titleLine'></span>
+					</div>
+					<div class='contactText1'>
+						<p>
+							Nasi konsultanci pozostają do Państwa dyspozycji od poniedziałku do piątku w godzinach 8:00-16:00
+						</p>
+					</div>
+					<div class='phoneBtn'>
+						<div class='phoneBtnName'>
+							Anna Nowak		
+						</div>						
+						<div>
+							<p>+48 123 456 789</p>
+							<p>mail@mail.pl</p>
+						</div>
+					</div>
+					<div class='phoneBtn'>
+						<div class='phoneBtnName'>
+							Krzysztof Kowalski			
+						</div>
+
+						<div>
+							<p>+48 123 456 789</p>
+							<p>mail@mail.pl</p>
+						</div>
+					</div>
+					<div class='phoneBtn'>
+						<div class='phoneBtnName'>
+							Jan Nowak			
+						</div>
+
+						<div>
+							<p>+48 123 456 789</p>
+							<p>mail@mail.pl</p>
+						</div>
+					</div>
+					<div class='phoneBtn'>
+						<div class='phoneBtnName'>
+							Maria Kowalska				
+						</div>
+
+						<div>
+							<p>+48 123 456 789</p>
+							<p>mail@mail.pl</p>
+						</div>
+					</div>					
+				</div>							
+			</div>					
+			<div class='contactBoxRight'>					
+				<div class='contactBox-2'>
+					<div class='contactTitle'>
+						<h1>Biuro</h1>
+						<span class='titleLine'></span>
+					</div>					
+					<div class='contactText2'>
+						<p>Nasze biuro otwarte jest od poniedziałku do piątku w godzinach 8:00 – 16:00</p>
+						<h2>Gdzieś w Bieszczadach</h2>
+						<h3>ul. Wielka Pętla</h3>
+						<h3>+48 123 456 789</h3>
+						<h3>mail@mail.pl</h3>
+					</div>					
+				</div>
+
+				<div class='contactBox-3'>
+					<div class='contactTitle'>
+						<h1>Współpraca</h1>
+						<span class='titleLine'></span>
+					</div>
+
+					<div class='contactText2'>
+						<p>Przedstawicieli firm, chcących podjąć współpracę z firmą, prosimy o kontakt:</p>
+						<h2>Gdzieś w Bieszczadach</h2>
+						<h3>ul. Wielka Pętla</h3>
+						<h3>+48 123 456 789</h3>
+						<h3>mail@mail.pl</h3>
+					</div>						
+				</div>			
+			</div>				
+			<div class='contactBoxbottom'>				
+					<div id='map'></div>
+				 <script>
+					  function initMap() {
+					   // var uluru = {lat: -25.363, lng: 131.044};
+						var uluru = {lat: 55.809795, lng: 19.377667};
+						var map = new google.maps.Map(document.getElementById('map'), {
+						  zoom: 15,
+						  center: uluru
+						});
+						var marker = new google.maps.Marker({
+						  position: uluru,
+						  map: map
+						});
+					  }
+				</script>
+				<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_BJ79mVGTxDaAY6mShUZkypjoaU1kphk&callback=initMap">
+				</script>
+			</div>			
+		</div>
+	</section>
+	
+    <footer>
+        <div class='container'>
+            <div class='footerRow col-12'>
+                <div class='fBox'>
+                  	<ul>
+                        <li><a href='index.html'>START</a></li>
+                        <li><a href='index.html#firma'>O FIRMIE</a></li>
+                        <li><a href="index.html#oferta">OFERTA</a></li>
+						<li><a href='index.html#certyfikaty'>CERTYFIKATY</a></li>
+                        <li><a href='index.html#klienci'>KLIENCI</a></li>
+                        <li><a href='kontakt.html'>KONTAKT</a></li>
+                    </ul>
+                   
+                </div>
+               
+                
+            </div>
+            <div class='footerRow2 col-12'>
+                <p> © Martyna Gołębowska 2017</p>
+            </div>
+
+        
+        </div>
+    </footer>
+    
+    
+</body>
+    
+    
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/app.js"></script>
+    
+    
+</html>
